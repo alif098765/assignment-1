@@ -5,6 +5,7 @@
     font-weight: 500;
     font-style: normal;
   }
+  /* task-1 */
   .btitle{
     font-size: 24px;
     font-weight: 500;
@@ -22,25 +23,21 @@
     background-color: #006A50;
     border-radius: 8px;
     padding: 17px 34px;
+    border-style: none;
   
   }
   .parents{
     display: flex;
-
 justify-content: space-between;
 align-items: center; 
  text-align: left; 
-
 padding: 80px 100px 80px 100px;
 width: 1280px;
 height: 560px;
 border-radius: 24px;
-
 background: rgb(198, 228, 214);
-margin: 0px 50px 0px 50px;
+margin: 100px 200px;
 /* font-family: Arial, Helvetica, sans-serif; */
-
-
   }
 .child-1{
     display: flex;
@@ -61,4 +58,141 @@ grid
     padding: 0px 55px;
     position: static;
 }
-  
+/* task-2 */
+.pa{
+  justify-content: center;
+  margin: 100px 200px;
+
+}
+.minpa{
+  display: flex;
+  justify-content: center;
+}
+.Vision{
+  font-size: 40px;
+  font-weight: bold;
+  color: #0E0E0E;
+}
+.nation{
+  font-size: 16px;
+  color: rgba(14, 14, 14, 0.7);
+}
+.card-1, .card-2, .card-3{
+  height: 325px;
+  width: 410px;
+  display: flex;
+flex-direction: column;
+align-items: flex-start;
+margin: 0px 24px;
+padding: 30px;
+border-radius: 16px;
+}
+.card-1{
+  background-color: rgba(84, 144, 245, 0.2);
+ 
+}
+.card-1{
+  justify-content: space-between;
+}
+.card-2, .card-3{
+  justify-content: space-between;
+}
+  .card-2{
+    background-color: #C6E4D6;
+  }
+  .card-3{
+    background-color: #F7EBCF;
+  }
+  .button{
+    font-size: 16px;
+    font-weight: 600;
+    color: #FFFFFF;
+    padding: 11px 30px;
+    border-style: none;
+    border-radius: 8px;
+  }
+  .blue{
+    background-color: #5490F5;
+  }
+  .green{
+background-color: #09A15C;
+  }
+  .yollow{
+background-color: #FFC239;
+  }
+  /* task-3 */
+  .news{
+    margin: 100px 200px;
+    }
+    .recent{
+      font-size: 40px;
+      font-weight: bold;
+      color: #0E0E0E;
+    }
+    .aim{
+      font-size: 16px;
+      color: rgba(14, 14, 14, 0.7);
+    }
+    .alt{
+      height: 306px;
+      width: 408px;
+      border-radius: 24px;
+    }
+  .date{
+    font-size: 16px;
+    color: rgba(14, 14, 14, 0.7);
+  }
+  .read{
+    color: #FFFFFF;
+    background-color: #006A50;
+    border-radius: 8px;
+    border-style: none;
+    padding: 13px 26px;
+    font-size: 18px;
+    font-weight: 600px;
+  }
+  .flex{
+    display: flex;
+    justify-content: space-between;
+    height: 402px;
+    width: 1280px;
+    text-align: left;
+    padding: 48px 48px;
+    border-radius: 24px;
+    background-color: #C6E4D6;
+   
+  }
+  .new{
+    width: 775px;
+    height: 290px;
+   gap: 20px;
+  }
+  .sate{
+    font-size: 32px;
+    font-weight: bold;
+    color: rgba(14, 14, 14, 0.8);
+  }
+  /* task-4 */
+  .today{
+    height: 464px;
+    width: 1280px;
+    margin: 100px 200px;
+    text-align: center;
+  }
+  .donate{
+    font-size: 40px;
+    font-weight: bold;
+    
+  }
+  .edge{
+    font-size: 16px;
+    color: rgba(14, 14, 14, 0.7);
+  }
+  .h{
+    display: flex;
+    justify-content: space-evenly;
+  font-size: 40px;
+  font-weight: bold;
+    border-radius: 16px;
+    padding: 40px 40px;
+  }
