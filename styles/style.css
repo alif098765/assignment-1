@@ -5,6 +5,24 @@
     font-weight: 500;
     font-style: normal;
   }
+  .head-title{
+    margin: 24px 160px;
+    display: flex;
+    justify-content: space-between;
+  }
+  .font{
+    font-size: 32px;
+    font-weight: bold;
+  }
+  .design{
+    height: 50px;
+    width: 115px;
+    font-size: 18px;
+    font-weight: 600px;
+    border-radius: 8px;
+    border-color: #006A50;
+    color: #006A50;
+  }
   /* task-1 */
   .btitle{
     font-size: 24px;
@@ -182,7 +200,6 @@ background-color: #FFC239;
   .donate{
     font-size: 40px;
     font-weight: bold;
-    
   }
   .edge{
     font-size: 16px;
@@ -193,6 +210,55 @@ background-color: #FFC239;
     justify-content: space-evenly;
   font-size: 40px;
   font-weight: bold;
+  }
+  .one{
+    background-color: rgb(233, 189, 189);
     border-radius: 16px;
     padding: 40px 40px;
   }
+  .two{
+    background-color: rgba(198, 228, 214, 1);
+    border-radius: 16px;
+    padding: 40px 40px;
+  }
+  .three{
+    background-color: #5490F5;
+    border-radius: 16px;
+    padding: 40px 40px;
+  }
+  .four{
+    border-radius: 16px;
+    padding: 40px 40px;
+    background-color: bisque;
+  }
+  .place{
+    width: 1032px;
+    height: 34px;
+    padding: 20px 40px;
+  }
+  ::placeholder{
+    font-size: 20px;
+    text-align: center;
+  }
+  .done{
+    height: 55px;
+    width: 150px;
+    margin-top: 30px;
+    border-radius: 6px;
+    background-color: #006A50;
+    font-size: 16px;
+    font-weight: 600px;
+    color: rgba(255, 255, 255, 1);
+    border-style: none;
+  }
+.set{
+  margin: 200px 100px;
+  text-align: center;
+}
+.src{
+  font-size: 32px;
+  font-weight: bold;
+}
+.pic{
+  justify-content: space-around;
+}
